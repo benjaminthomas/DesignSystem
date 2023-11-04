@@ -32,8 +32,8 @@ export default function Home() {
         hassle-free. With comprehensive documentation and a supportive
         community, any potential hurdles in the development process are easily
         overcome. Embark on a journey of creative construction with this design
-        system. It's not just a toolkit; it's a gateway to bringing creative
-        visions to life with the most advanced web technologies at your
+        system. It&lsquo;s not just a toolkit; it&lsquo;s a gateway to bringing
+        creative visions to life with the most advanced web technologies at your
         fingertips.
       </TypeSet>
     </PageWrapper>

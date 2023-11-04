@@ -86,7 +86,7 @@ export const Secondary: StoryObj<typeof Button> = {
     children: "Secondary Button",
   },
 };
-export const secondaryGhost: StoryObj<typeof Button> = {
+export const SecondaryGhost: StoryObj<typeof Button> = {
   args: {
     ...PrimaryGhost.args,
     intent: "secondaryGhost",

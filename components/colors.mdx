@@ -1,0 +1,83 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/blocks";
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="Neutral"
+    subtitle="Some of the greys"
+    colors={{
+      900: "#212529",
+      800: "#343A40",
+      700: "#495057",
+      600: "#6C757D",
+      500: "#ADB5BD",
+      400: "#CED4DA",
+      300: "#DEE2E6",
+      200: "#E9ECEF",
+      100: "#F8F9FA",
+      Black: "#000000",
+      White: "#ffffff",
+    }}
+  />
+  <ColorItem
+    title="Primary"
+    subtitle="Purple"
+    colors={{
+      900: "#020A33",
+      800: "#0C1A66",
+      700: "#1D2F99",
+      600: "#354ACB",
+      500: "#556AEB",
+      400: "#6E82FE",
+      300: "#8FA0FF",
+      200: "#B9C4FF",
+      100: "#B9C4FF",
+    }}
+  />
+  <ColorItem
+    title="Secondary"
+    subtitle="Orange"
+    colors={{
+      900: "#320",
+      800: "#664200",
+      700: "#996000",
+      600: "#CC7C00",
+      500: "#FF9500",
+      400: "#FFB23B",
+      300: "#FFCC75",
+      200: "#FFE3B0",
+      100: "#FFE3B0",
+    }}
+  />
+  <ColorItem
+    title="Tertiary"
+    subtitle="Blue"
+    colors={{
+      900: "#001733",
+      800: "#002F66",
+      700: "#004899",
+      600: "#0061CC",
+      500: "#007AFF",
+      400: "#3B98FF",
+      300: "#75B6FF",
+      200: "#B0D5FF",
+      100: "#EBF4FF",
+    }}
+  />
+  <ColorItem
+    title="Transparency"
+    subtitle="This rule can be applied to every color seen on these palettes. For example, you can apply this scale to the Neutral 900 color. Same rule should also be applied to components like buttons, icons, etc."
+    colors={{
+      Transparency100: "rgba(33, 37, 41, 1)",
+      Transparency80: "rgba(33, 37, 41, .80)",
+      Transparency64: "rgba(33, 37, 41, .64)",
+      Transparency56: "rgba(33, 37, 41, .56)",
+      Transparency40: "rgba(33, 37, 41, .40)",
+      Transparency24: "rgba(33, 37, 41, .24)",
+      Transparency16: "rgba(33, 37, 41, .16)",
+      Transparency8: "rgba(33, 37, 41, .08)",
+      Transparency4: "rgba(33, 37, 41, .04)",
+    }}
+  />
+</ColorPalette>

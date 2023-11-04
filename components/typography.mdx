@@ -1,0 +1,48 @@
+import { Meta, Typeset } from "@storybook/blocks";
+
+<Meta title="Typography" />
+
+export const typography = {
+  type: {
+    primary: '"Inter", sans-serif',
+  },
+  weight: {
+    regular: "400",
+    bold: "700",
+    extrabold: "800",
+    black: "900",
+  },
+  size: {
+    bxs: ".8rem",
+    bsm: "1rem",
+    bmd: "1.125rem",
+    h4: "1.75rem",
+    h3: "2.5rem",
+    h2: "3rem",
+    h1: "3.75rem",
+  },
+};
+
+export const SampleText = "Lorem ipsum dolor sit amet, consectetur";
+
+# Typography
+
+**Font:** Inter
+**Rem base Size:** 1rem = 16px
+
+**Weights:** 400(regular), 700(bold), 800(extrabold), 900(black)
+
+<Typeset
+  fontSizes={[
+    typography.size.bxs,
+    typography.size.bsm,
+    typography.size.bmd,
+    typography.size.h4,
+    typography.size.h3,
+    typography.size.h2,
+    typography.size.h1,
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
